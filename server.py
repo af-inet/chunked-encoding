@@ -24,7 +24,6 @@ def data_to_chunks(data, chunk_size):
             data_chunks.append(chunk)
     return data_chunks
 
-
 def format_chunk(chunk):
     return ("%X" % len(chunk)) + CRLF + chunk + CRLF
 
