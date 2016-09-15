@@ -10,11 +10,11 @@ Demonstrates [RFC 2616](https://tools.ietf.org/html/rfc2616) compliant Chunked E
 
 (in another terminal)
 
-`./test.sh` to run the client (will output the result, 1 chunk at a time (cURL -N))
+`./test.sh` to run the client (will output the result, showing chunks as they're received `curl -N`)
 
 You can disabled chunked encoding by commenting out the `Transfer-Encoding: chunked` header. 
 
 `+ ENCODING + CRLF`
 
-The output from cURL will then be the raw HTTP compliant chunks, except they will be interpreted as plain text.
+The output from `test.sh` will then be the raw chunks, interpreted as plain text.
 
