@@ -54,7 +54,7 @@ while 1:
 
     conn.send(
         STATUS_LINE + CRLF
-        # comment this out to disable client-side chunking (you will see dissasembled chunks in curl)
+        # comment this out to disable client-side chunking (you will see disassembled chunks in curl)
         + ENCODING + CRLF
         + CRLF
     )
